@@ -127,6 +127,12 @@ setup(
     license='MIT',
     packages=find_packages(),
     setup_requires=[
+        'convertdate>=2.1.2',
+        'holidays>=0.9.5',
+        'lunarcalendar>=0.0.9',
+        'numpy>=1.10.0',
+        'pandas>=0.23.4',
+        'pystan>=2.14',
     ],
     install_requires=install_requires,
     zip_safe=False,
